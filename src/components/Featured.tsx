@@ -48,9 +48,17 @@ export default function Featured() {
                 <span className="text-neutral-400">—</span>Ремонт и реставрация одежды
               </div>
             </div>
-            <button className="mt-10 bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer uppercase tracking-widest">
-              Заказать пошив
-            </button>
+            <div className="mt-10 flex flex-col sm:flex-row gap-3">
+              <button className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer uppercase tracking-widest">
+                Заказать пошив
+              </button>
+              <a
+                href="/calculator"
+                className="flex items-center justify-center gap-2 border border-neutral-300 text-neutral-700 px-6 py-3 text-sm transition-all duration-300 hover:bg-black hover:text-white hover:border-black uppercase tracking-widest"
+              >
+                Рассчитать стоимость
+              </a>
+            </div>
           </div>
 
           <div className="lg:w-7/12 flex flex-col gap-0">
